@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #34495e;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.content {
+  height: 200px;
+  width: 650px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px
+}
+.correctContainer {
+  height: 50px;
+  width: 250px;
+  float: left;
+}
+.wrongContainer {
+  height: 50px;
+  width: 250px;
+  float: right;
+}
+.input {
+  height: 50px;
+  width: 250px;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: #e0e0e0;
+  font-size: 20px;
+  color: #2c3e50
+}
+.inputCorrect {
+  float: left;
+}
+.inputWrong {
+  float: right;
+}
+.button {
+  height: 50px;
+  width: 150px;
+  border-radius: 2px;
+  background-color: #2ecc71;
+  border-width: 0px;
+  color: white;
+  font-size: 18px;
+  margin: auto;
+  position: relative;
+}
+
+.pCorrect {
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+.pWrong {
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+.successInfo {
+  color: #2ecc71;
+}
+.failInfo {
+  color: #e74c3c;
+}
+h1 {
+font-size: 40px;
+}
+h2 {
+  font-size: 20px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
