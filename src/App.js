@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import './App.css';
 import AddWord from './components/AddWord/AddWord';
 import ListWord from './components/ListWord/ListWord'
+
 import {
   BrowserRouter as Router,
   Route,
-  Link
+  Link,
 } from 'react-router-dom'
 class App extends Component {
   render() {

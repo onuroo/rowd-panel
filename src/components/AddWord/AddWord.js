@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './AddWord.css';
 import firebase from 'firebase'
 import firebaseConfig from '../../config/firebase'
+import Header from '../Header/Header'
 import {
   BrowserRouter as Router,
   Route,
@@ -51,11 +52,7 @@ class AddWord extends Component {
   render() {
     return (
       <div className="addWord">
-        <div className="App-header">
-          <h1>Rowd</h1>
-          <h2>Contribute Us</h2>
-          <Link to="/listWord">List Words</Link>
-        </div>
+        <Header />
         <div className="content">
 
           <div className="correctContainer">

@@ -17,6 +17,11 @@ class Header extends Component {
             <p className="p">Add Word</p>
           </div>
         </Link>
+        <Link to="/listWord">
+          <div className="listWordLink">
+            <p className="p">List Words</p>
+          </div>
+        </Link>
         <Link to="/statistic">
           <div className="statisticLink">
             <p className="p">Statistic</p>

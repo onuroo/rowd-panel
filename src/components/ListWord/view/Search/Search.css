@@ -1,0 +1,19 @@
+.Search {
+  height: 50px;
+  margin: auto;
+  width: 825px;
+  background-color: red;
+  margin-top: 10px;
+},
+input[type=search] {
+  height: 45px;
+  width: 900px;
+  margin: auto;
+}
+.searching {
+  height: 45px;
+  width: 825px;
+  margin: auto;
+  font-size: 21px
+
+}

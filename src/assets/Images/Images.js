@@ -1,5 +1,8 @@
+const baseImageUrl = './assets/Images/'
 const Images = {
-  repair: require('./repair.png')
+  repair: baseImageUrl + 'repair.png',
+  close: baseImageUrl + 'close.png'
+
 }
 
 export default Images
